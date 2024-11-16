@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "closed_ats",
+  "info": {
+    "singularName": "closed-at",
+    "pluralName": "closed-ats",
+    "displayName": "Closed at"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "closed_at": {
+      "type": "string"
+    }
+  }
+}
