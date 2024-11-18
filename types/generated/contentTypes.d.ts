@@ -830,7 +830,7 @@ export interface ApiLandingImageLandingImage extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    Portada: Attribute.Media & Attribute.Private;
+    Portada: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

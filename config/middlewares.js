@@ -6,7 +6,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:5173', '*'],
+      origin: ['http://localhost:5173', '*', 'https://altico-front.vercel.app'],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: '*'
     },
