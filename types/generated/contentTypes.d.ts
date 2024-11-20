@@ -868,6 +868,7 @@ export interface ApiMenuMenu extends Schema.CollectionType {
     available: Attribute.Boolean;
     image: Attribute.Media;
     featured: Attribute.Boolean;
+    flavors: Attribute.JSON;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
