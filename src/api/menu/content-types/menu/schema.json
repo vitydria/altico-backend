@@ -40,6 +40,9 @@
     },
     "featured": {
       "type": "boolean"
+    },
+    "flavors": {
+      "type": "json"
     }
   }
 }
